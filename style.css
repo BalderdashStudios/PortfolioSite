@@ -1,0 +1,151 @@
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@media all and (min-width: 568px) {
+  .navbar-fixed-width {
+    width: 368px;
+    margin-left: auto;
+    margin-right:auto;
+ }
+}
+
+@media all and (min-width: 592px) {
+  .navbar-fixed-width {
+    width: 592px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+}
+
+@media all and (min-width: 800px) {
+  .navbar-fixed-width {
+    width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+}
+
+
+
+
+
+
+body {
+  background-image: linear-gradient(rgba(255,255,255,1), rgba(131,172,203,0.5));
+  background-attachment: fixed;
+}
+
+header {
+  background-image: linear-gradient(rgba(70,70,70,1), rgba(255,0,0,0));
+  background-attachment: fixed;
+  padding: 0px;
+  color: #0995FA;
+  font-size: 60px;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+  text-align: left;
+  margin: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainHeader {
+   background-image: linear-gradient(rgba(200,200,200,1), rgba(100,100,100,0));
+  padding: 0px;
+  color: #0995FA;
+  font-size: 70px;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+}
+
+.Header1 {
+  padding: 0px;
+  color: #0995FA;
+  font-size: 60px;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+}
+
+.subText1 {
+  padding: 0px;
+  color: #04426F;
+  font-size: 40px;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.BlogSubText {
+  padding: 0px;
+  color: #04426F;
+  font-size: 30px;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+}
+
+.bottomLinks {
+  background: #04426F;
+  color: #0094FF;
+  font-size: 30px;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+  
+}
+
+.cardStyle {
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.drop-shadow {
+  filter: drop-shadow(5px 5px 10px #929292);
+}
+
+.blogImg {
+  border-radius: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.blogHoverText {
+  color: #0094FF;
+  font-size: 60px;
+  -moz-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+  
+}
+
+.blogHoverText:hover {
+  color: #04426F;
+}
+
+.blogHoverText1 {
+  color: #0094FF;
+  font-size: 40px;
+  -moz-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+
+}
+
+.blogHoverText1:hover {
+  color: #04426F;
+}
+
